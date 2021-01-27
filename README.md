@@ -1,5 +1,4 @@
-# majestic-reconstitution-project
-
+# nuMAJE
 Repository for the refactoring old MAJEstic features/commands and readapting them to nuMAJE.
 Each command is contained in its own directory.
 
