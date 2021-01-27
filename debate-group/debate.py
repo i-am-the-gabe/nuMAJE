@@ -1,4 +1,4 @@
-from debate_class import DebateTemplate 
+from debate_class import DebateTemplate, current_debates
 
 @bot.group()
 async def debate(ctx):
