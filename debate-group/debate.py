@@ -1,3 +1,5 @@
+from debate_class import DebateTemplate 
+
 @bot.group()
 async def debate(ctx):
     if ctx.invoked_subcommand is None or ctx.invoked_subcommand is "help":
