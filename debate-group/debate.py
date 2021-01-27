@@ -26,7 +26,7 @@ async def new(ctx, *, topic: str):
 @debate.command()
 @has_permissions(manage_messages=True)
 async def delete(ctx, slot):
-    slot = int(slot)-1 #Human-friendly slot numbering. Having "Slot 0" being displayed would be too confusing and strange.
+    slot = int(slot)-1 
     await ctx.send(f"Debate with topic {current_debates[slot].topic} has been deleted.")
     del current_debates[slot]
 
@@ -49,7 +49,7 @@ async def check(ctx):
 
 @debate.command()
 async def add(ctx, slot, added : discord.Member):
-    selected = current_debates[int(slot)-1] #Human-friendly slot numbering. Having "Slot 0" being displayed would be too confusing and strange.
+    selected = current_debates[int(slot)-1] 
     if added not in selected.participants:
         selected.participants.append(added)
 
