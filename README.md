@@ -1,5 +1,5 @@
 # nuMAJE
-Repository for the refactoring of old MAJEstic features/commands and readapting them to nuMAJE.
+Refactoring old MAJEstic features/commands and readapting them to nuMAJE.
 Each command is contained in its own directory.
 
 Disclaimer: This code is old, very old. The original MAJE project was my very first Python project, and the nuMAJE project is a thing because I wanted to fix it.
